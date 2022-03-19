@@ -1,0 +1,14 @@
+{
+    "name": "my_nodejs_extension",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+    },
+    "author": "Danidre",
+    "license": "MIT",
+    "dependencies": {
+        "uuid": "^8.3.2",
+        "websocket": "^1.0.34"
+    }
+}
