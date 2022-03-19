@@ -17,7 +17,7 @@ A simple neu application that connects to a nodejs extension file. Started off w
 ## Disclaimers
 - You may need to do error handling in your nodejs extension so that it does not crash.
 - This nodejs extension uses `websocket` and `uuid` to work. Ensure that you first `npm i` in the `package.json` directory to import the necessary `node_modules` before testing your app.
-- Not every computer may have nodejs installed, so you should bundle the nodejs application as an `.exe` when distributing. Don't forget to adjust your `"command"` in your `neutralino.config.json` file to launch that `.exe` instead. <br />I have no idea how to bundle nodejs applications but someone suggested "bundling/packaging it with [caxa](https://github.com/leafac/caxa)" and "minifying/compressing with tools like [upx](https://github.com/upx/upx)". I have not explored much into it so I can't confirm it.
+- **Distribution:** Not every computer may have nodejs installed, so you should bundle the nodejs application as an `.exe` when distributing. Don't forget to adjust your `"command"` in your `neutralino.config.json` file to launch that `.exe` instead. <br />I have no idea how to bundle nodejs applications but someone suggested "bundling/packaging it with [caxa](https://github.com/leafac/caxa)" and "minifying/compressing with tools like [upx](https://github.com/upx/upx)". I have not explored much into it so I can't confirm it.
 - I removed unnecessary things from the `neutralino.config.json` file for this sample. Your configuration file may differ based on what you need for your own application.
 
 # Icon credits
